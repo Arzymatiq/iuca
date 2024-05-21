@@ -1,0 +1,47 @@
+.footer {
+    background-color: rgb(45, 64, 92); /* Изменяем задний фон на синий */
+    color: #fff; /* Белый цвет текста */
+    padding: 20px 0;
+    font-family: "Arial", sans-serif; /* Применяем красивый шрифт */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.address,
+.contacts,
+.socialIcons {
+    flex: 1;
+    text-align: center;
+}
+
+.text {
+    font-size: 14px; /* Уменьшаем размер текста */
+    margin-bottom: 5px; /* Добавляем небольшой отступ между параграфами */
+}
+
+.icon {
+    color: #fff; /* Белый цвет иконок */
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.icon:hover {
+    color: #ccc;
+}
+@media (max-width: 682px) {
+    .container {
+        flex-direction: column; /* Изменяем направление расположения элементов на вертикальное */
+    }
+
+    .address,
+    .contacts,
+    .socialIcons {
+        flex: none; /* Отменяем растяжение элементов по ширине */
+        width: auto; /* Возвращаем автоматическую ширину элементов */
+        margin-bottom: 20px; /* Добавляем отступ между элементами */
+    }
+}

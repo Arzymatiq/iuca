@@ -1,0 +1,18 @@
+.navbar {
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+.navbar.scrolled {
+    background: rgba(255, 255, 255, 0.8);
+}
+.navbarToggle {
+    border: none; /* Убираем границу на кнопке бургер-меню */
+}
+
+.navbar {
+    transition: background-color 0.3s ease; /* Добавляем анимацию для фона */
+}
+a {
+    color: black;
+    text-decoration: none;
+}

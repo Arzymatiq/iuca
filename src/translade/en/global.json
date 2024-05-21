@@ -1,0 +1,47 @@
+{
+    "navBar": {
+        "navBar_item_1": "Home",
+        "navBar_item_2": "For Applicants",
+        "navBar_item_3": "Programs",
+        "navBar_item_3_1": "IT",
+        "navBar_item_3_2": "Ped",
+        "navBar_item_3_3": "Translator",
+        "navBar_item_3_4": "Tour",
+        "navBar_item_3_5": "Law",
+
+        "navBar_item_4": "For students",
+        "navBar_item_4_1": "Time-Table",
+        "navBar_item_4_2": "Academic schedule",
+        "navBar_item_4_3": "Time schedule",
+        "navBar_item_4_4": "Personal account",
+
+        "navBar_item_5": "College",
+        "navBar_item_5_1": "Vacancy",
+        "navBar_item_5_2": "About us",
+
+        "navBar_item_6": "Language"
+    },
+    "homePage": {
+        "first_words_1": "Our device",
+        "first_words": "Here we not only teach",
+        "first_words_2": "but also inspire",
+        "goals": "Goal",
+        "goals_1": "Transform the HTC into an innovative educational community",
+        "mission": "Mission",
+        "mission_1": "Foster education that promoting a global mindset in students",
+
+        "title": "About us",
+        "title_1": "Humanitarian technical college ",
+        "about_us_description": "Humanitarian technical college (HTC) - it’s an educational place which aspire to provide middling high-quality education for students"
+    },
+    "footer": {
+        "Address": "Address",
+        "Address_1": "Kyrgyz Republic, 724915 Tokmok, st. Sulaymankulova A.Zh. 141 a (Former Komsomolskaya)",
+        "E-MAIL": "E-MAIL",
+        "E-MAIL_1": "office_gtk@iuca.kg",
+        "TEL/FAX": "tel/fax",
+        "TEL/FAX_1": "+996 (3138) 3-05-93",
+        "TEL_PHONE": "cell phone",
+        "TEL_PHONE_1": "+996 (555/703) 06-29-91"
+    }
+}

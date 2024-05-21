@@ -1,0 +1,335 @@
+.programs {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.head_block {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    background-color: rgb(45, 64, 92);
+}
+.head_block_center {
+    color: white;
+    font-size: 3em;
+}
+.goals_title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+/* programs.module.css */
+/* .head_block {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .head_block_center {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+   */
+.about_program {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px;
+}
+.mission_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.left_side,
+.right_side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.about_it_program_left_side {
+    height: 100%;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about_it_program_right_side {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.mission_program_left_side {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.mission_program_right_side {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about_it_program {
+    font-size: 24px; /* Размер шрифта */
+    font-weight: bold; /* Полужирный шрифт */
+}
+
+.about_it_program_description {
+    font-size: 16px;
+}
+
+.program_goals_block {
+    background-color: #f8f9fa;
+    height: 500px;
+}
+.program_goals_item {
+    height: 500px;
+}
+.mission_block {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.program_image {
+    width: 70%;
+    max-height: 500px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.about_it_program_image {
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+}
+.mission_block p {
+    font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+    .mission_program_right_side {
+        width: 100%;
+    }
+    .about_it_program_left_side {
+        width: 100%;
+    }
+    .about_it_program_right_side {
+        width: 90%;
+        margin: 15px;
+    }
+    .mission_program_left_side {
+        width: 90%;
+        margin: 15px;
+    }
+    .program_image {
+        width: 100%;
+    }
+    .about_it_program_image {
+        width: 100%;
+    }
+    .about_program {
+        flex-direction: column;
+    }
+
+    .left_side,
+    .right_side {
+        margin-bottom: 20px;
+    }
+
+    .mission_block {
+        flex-direction: column;
+    }
+
+    .mission_block img {
+        margin-bottom: 20px;
+    }
+    .program_image {
+        width: 100%;
+    }
+}
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+
+.banner {
+    background-color: #f7f7f7; /* Цвет фона */
+    padding: 50px 0; /* Отступы сверху и снизу */
+}
+
+.container {
+    display: flex; /* Отображение элементов в строку */
+    justify-content: center; /* Выравнивание по центру */
+}
+.container_center {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1; /* Распределение равного пространства между карточками */
+    max-width: 50%; /* Увеличиваем максимальную ширину карточки */
+    padding: 20px; /* Внутренние отступы */
+    text-align: center; /* Выравнивание содержимого по центру */
+    margin: 0 10px; /* Внешние отступы между карточками */
+    background-color: #fff; /* Цвет фона карточки */
+    border-radius: 10px; /* Закругление углов */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Тень карточки */
+}
+
+.natural {
+    color: #274c5b; /* Цвет текста */
+    font-family: "Yellowtail", cursive;
+}
+
+.h2 {
+    margin-top: 10px; /* Внешний отступ сверху для заголовка */
+    font-size: 16px; /* Размер шрифта */
+    font-weight: bold; /* Полужирный шрифт */
+}
+p {
+    font-size: 20px;
+}
+
+.banner_img {
+    max-width: 100%; /* Максимальная ширина изображения */
+    height: 300px; /* Автоматическая высота изображения */
+    object-fit: cover;
+    margin-top: 20px; /* Внешний отступ сверху */
+    border-radius: 10px; /* Закругление углов изображения */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Тень изображения */
+}
+
+@media (max-width: 778px) {
+    .container_center {
+        width: 100%;
+    }
+    .card {
+        flex: 1; /* Распределение равного пространства между карточками */
+        max-width: 100%; /* Увеличиваем максимальную ширину карточки */
+        padding: 20px; /* Внутренние отступы */
+        text-align: center; /* Выравнивание содержимого по центру */
+        margin: 0 10px; /* Внешние отступы между карточками */
+        background-color: #fff; /* Цвет фона карточки */
+        border-radius: 10px; /* Закругление углов */
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Тень карточки */
+    }
+}
+.result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.785);
+}
+.result_center h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.result_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+.result_item {
+    width: 300px;
+    background-color: rgba(165, 165, 165, 0.354);
+    padding: 20px; /* Внутренние отступы */
+    text-align: center; /* Выравнивание содержимого по центру */
+    margin: 0 10px; /* Внешние отступы между карточками */
+    margin-bottom: 15px;
+    background-color: #fff; /* Цвет фона карточки */
+    border-radius: 10px; /* Закругление углов */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Тень карточки */
+}
+@media (max-width: 778px) {
+    .result_item {
+        margin: 0;
+        margin-bottom: 15px;
+        width: 90%;
+    }
+}
+.teacher_block {
+    margin-top: 20px;
+}
+
+.teacher_block_center {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.teacher_list {
+    list-style: none;
+    padding: 0;
+}
+
+.teacher_item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.teacher_left_side {
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+.teacher_right_side {
+    flex: 1;
+    text-align: right;
+}
+
+.teacher_name {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+.teacher_prof,
+.teacher_gmail,
+.teacher_program {
+    margin: 0;
+    color: #888;
+    font-size: 16px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.teacher_gmail {
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .teacher_item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .teacher_left_side,
+    .teacher_right_side {
+        flex: 100%;
+    }
+
+    .teacher_right_side {
+        text-align: left;
+    }
+}

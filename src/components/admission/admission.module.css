@@ -1,0 +1,422 @@
+.programs {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.head_block {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    background-color: rgb(42, 55, 77);
+    padding: 15px;
+}
+.head_block_center {
+    color: #f9f9f9f9;
+    font-size: 3em;
+}
+
+.admission_brif {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px;
+}
+.mission_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.left_side,
+.right_side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.about_it_program_left_side {
+    height: 300px;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about_it_program_right_side {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.about_it_program {
+    display: flex;
+    margin-left: 25px;
+}
+.mission_program_left_side {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.mission_program_right_side {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.admission_brif {
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    position: relative; /* Добавьте позиционирование для overlay */
+    background-image: url("../img/admission_first_img.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+    background-attachment: fixed; /* Зафиксировать фон при прокрутке */
+    padding: 50px 0; /* Добавьте отступ, чтобы содержимое не перекрывалось фоном */
+}
+
+.admission_brif::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /*Полупрозрачный черный цвет */
+}
+
+.about_it_program_left_side {
+    height: 200px;
+    color: rgb(42, 55, 77);
+    background-color: #f9f9f9f9;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.about_it_program {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.about_it_program_image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Добавьте стили для правильного отображения на мобильных устройствах, если необходимо */
+@media (max-width: 768px) {
+    .admission_brif {
+        padding: 20px 0;
+        margin: 0;
+    }
+    .about_it_program_left_side {
+        width: 100%;
+    }
+    .about_it_program {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.program_goals_block {
+    background-color: #f8f9fa;
+    height: 500px;
+}
+.program_goals_item {
+    height: 500px;
+}
+.mission_block {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.program_image {
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+}
+.mission_block p {
+    font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+    .mission_program_right_side {
+        width: 100%;
+    }
+
+    .mission_program_left_side {
+        width: 90%;
+        margin: 15px;
+    }
+    .program_image {
+        width: 100%;
+    }
+
+    .admission_brif {
+        flex-direction: column;
+    }
+
+    .left_side,
+    .right_side {
+        margin-bottom: 20px;
+    }
+
+    .mission_block {
+        flex-direction: column;
+    }
+
+    .mission_block img {
+        margin-bottom: 20px;
+    }
+    .program_image {
+        width: 100%;
+    }
+}
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+
+.banner {
+    background-color: #f7f7f7; /* Цвет фона */
+    padding: 50px 0; /* Отступы сверху и снизу */
+}
+
+.container {
+    display: flex; /* Отображение элементов в строку */
+    justify-content: center; /* Выравнивание по центру */
+}
+.container_center {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1; /* Распределение равного пространства между карточками */
+    max-width: 50%; /* Увеличиваем максимальную ширину карточки */
+    padding: 20px; /* Внутренние отступы */
+    text-align: center; /* Выравнивание содержимого по центру */
+    margin: 0 10px; /* Внешние отступы между карточками */
+    background-color: #fff; /* Цвет фона карточки */
+    border-radius: 10px; /* Закругление углов */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Тень карточки */
+}
+
+.natural {
+    color: #274c5b; /* Цвет текста */
+}
+
+.h2 {
+    margin-top: 10px; /* Внешний отступ сверху для заголовка */
+    font-size: 16px; /* Размер шрифта */
+    font-weight: bold; /* Полужирный шрифт */
+}
+p {
+    font-size: 20px;
+}
+
+.banner_img {
+    max-width: 100%; /* Максимальная ширина изображения */
+    height: auto; /* Автоматическая высота изображения */
+    margin-top: 20px; /* Внешний отступ сверху */
+    border-radius: 10px; /* Закругление углов изображения */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Тень изображения */
+}
+@media (max-width: 778px) {
+    .container_center {
+        width: 100%;
+    }
+    .card {
+        flex: 1; /* Распределение равного пространства между карточками */
+        max-width: 100%; /* Увеличиваем максимальную ширину карточки */
+        padding: 20px; /* Внутренние отступы */
+        text-align: center; /* Выравнивание содержимого по центру */
+        margin: 0 10px; /* Внешние отступы между карточками */
+        background-color: #fff; /* Цвет фона карточки */
+        border-radius: 10px; /* Закругление углов */
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Тень карточки */
+    }
+}
+.result {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.785);
+}
+.result_center h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.result_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+.result_item {
+    width: 300px;
+    background-color: rgba(165, 165, 165, 0.354);
+    padding: 20px; /* Внутренние отступы */
+    text-align: center; /* Выравнивание содержимого по центру */
+    margin: 0 10px; /* Внешние отступы между карточками */
+    margin-bottom: 15px;
+    background-color: #fff; /* Цвет фона карточки */
+    border-radius: 10px; /* Закругление углов */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Тень карточки */
+}
+@media (max-width: 778px) {
+    .result_item {
+        margin: 0;
+        margin-bottom: 15px;
+        width: 90%;
+    }
+}
+.teacher_block {
+    margin-top: 20px;
+}
+
+.teacher_block_center {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.teacher_list {
+    list-style: none;
+    padding: 0;
+}
+
+.teacher_item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.teacher_left_side {
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+.teacher_right_side {
+    flex: 1;
+    text-align: right;
+}
+
+.teacher_name {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+.teacher_prof,
+.teacher_gmail,
+.teacher_program {
+    margin: 0;
+    color: #888;
+    font-size: 16px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.teacher_gmail {
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .teacher_item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .teacher_left_side,
+    .teacher_right_side {
+        flex: 100%;
+    }
+
+    .teacher_right_side {
+        text-align: left;
+    }
+}
+.mock_tests {
+    padding: 50px 0; /* Верхний и нижний отступы */
+    width: 100%;
+}
+
+.mock_tests_center {
+    max-width: 80%; /* Максимальная ширина блока */
+    margin: 0 auto; /* Центрирование */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+.mock_tests_list {
+    list-style: none; /* Убираем маркеры у списка */
+    padding: 0; /* Убираем внутренние отступы у списка */
+    display: flex; /* Отображаем элементы в одну линию */
+    justify-content: center; /* Выравнивание элементов по центру */
+    flex-wrap: wrap;
+}
+
+.mock_tests_item {
+    width: 20%;
+    height: 200px;
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 15px;
+    flex: 0 0 calc(50% - 40px); /* Устанавливаем ширину элемента в зависимости от размера экрана */
+    max-width: calc(50% - 40px); /* Максимальная ширина элемента */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Тень для элемента */
+    transition: box-shadow 0.3s ease; /* Плавное изменение тени */
+}
+
+.mock_tests_name {
+    font-size: 20px; /* Размер шрифта названия теста */
+    font-weight: bold; /* Жирное начертание */
+}
+
+.mock_tests_btn {
+    background-color: rgb(45, 64, 92); /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста кнопки */
+    border: none; /* Убираем границу */
+    padding: 10px 20px; /* Внутренние отступы */
+    font-size: 16px; /* Размер шрифта */
+    border-radius: 5px; /* Закругляем углы */
+    cursor: pointer; /* Устанавливаем указатель на кнопку */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета фона */
+}
+
+.mock_tests_btn:hover {
+    background-color: rgb(
+        0,
+        67,
+        139
+    ); /* Изменяем цвет фона при наведении курсора */
+}
+@media (max-width: 768px) {
+    .mock_tests_item {
+        flex-basis: calc(
+            100% - 40px
+        ); /* Устанавливаем ширину элемента на всю ширину родительского контейнера */
+        max-width: calc(100% - 40px); /* Максимальная ширина элемента */
+    }
+}

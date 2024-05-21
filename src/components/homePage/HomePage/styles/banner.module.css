@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+
+.banner {
+    background-color: #f7f7f7; /* Цвет фона */
+    padding: 50px 0; /* Отступы сверху и снизу */
+}
+
+.container {
+    display: flex; /* Отображение элементов в строку */
+    justify-content: center; /* Выравнивание по центру */
+}
+.container_center {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1; /* Распределение равного пространства между карточками */
+    max-width: 50%; /* Увеличиваем максимальную ширину карточки */
+    padding: 20px; /* Внутренние отступы */
+    text-align: center; /* Выравнивание содержимого по центру */
+    margin: 0 10px; /* Внешние отступы между карточками */
+    background-color: #fff; /* Цвет фона карточки */
+    border-radius: 10px; /* Закругление углов */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Тень карточки */
+}
+
+.natural {
+    color: #274c5b; /* Цвет текста */
+}
+
+.h2 {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #274c5b; /* Цвет текста */
+}
+p {
+    font-size: 20px;
+}
+
+.banner_img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    /* box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 1); */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0.9;
+}
+
+@media (max-width: 778px) {
+    .container_center {
+        width: 100%;
+    }
+    .card {
+        flex: 1;
+        max-width: 100%;
+        padding: 20px;
+        text-align: center;
+        margin: 0 10px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    }
+}

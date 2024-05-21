@@ -1,0 +1,65 @@
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block {
+    position: relative;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 25%; /* Ширина блока */
+}
+
+.image {
+    width: 100%; /* Ширина изображения на 100% блока */
+    height: 100%;
+    display: block;
+    transition: filter 0.3s ease;
+    object-fit: cover; /* Обрезаем изображение, чтобы оно заполнило контейнер */
+}
+
+.text {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 0.3s ease;
+    font-size: 1.2em;
+    opacity: 0; /* Начальное состояние блока с текстом (скрыт) */
+}
+
+.block:hover .image {
+    filter: brightness(50%);
+}
+
+.block .text {
+    opacity: 1; /* Показываем текст при наведении на блок */
+}
+@media (max-width: 767px) {
+    .block {
+        position: relative;
+        margin: 20px;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        width: 40%; /* Ширина блока */
+    }
+}
+@media (max-width: 600px) {
+    .block {
+        position: relative;
+        margin: 20px;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        width: 100%; /* Ширина блока */
+    }
+}
