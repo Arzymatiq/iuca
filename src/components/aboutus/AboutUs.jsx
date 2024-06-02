@@ -97,7 +97,7 @@ const AboutUs = () => {
                             <div className={style.card}>
                                 <p
                                     className={style.natural}
-                                    style={{ color: "#7EB693" }}>
+                                    style={{ color: "#274c5b" }}>
                                     {t("homePage.mission")}
                                 </p>
                                 <h2
@@ -109,7 +109,7 @@ const AboutUs = () => {
                             <div className={style.card}>
                                 <p
                                     className={style.natural}
-                                    style={{ color: "#7EB693" }}>
+                                    style={{ color: "#274c5b" }}>
                                     {t("homePage.worth")}
                                 </p>
                                 <h2

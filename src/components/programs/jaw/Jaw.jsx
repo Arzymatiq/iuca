@@ -155,24 +155,7 @@ const IT = () => {
                                     </p>
                                 </div>
                             </li>
-                            <li className={style.teacher_item}>
-                                <div className={style.teacher_left_side}>
-                                    <h2 className={style.teacher_name}>
-                                        {t("Jaw.teacher_3")}
-                                    </h2>
-                                    <p className={style.teacher_prof}>
-                                        {t("Jaw.teacher_3_prof")}
-                                    </p>
-                                    <p className={style.teacher_gmail}>
-                                        {t("Jaw.teacher_3_gmail")}
-                                    </p>
-                                </div>
-                                <div className={style.teacher_right_side}>
-                                    <p className={style.teacher_program}>
-                                        {t("Jaw.teacher_3_program")}
-                                    </p>
-                                </div>
-                            </li>
+
                             <li className={style.teacher_item}>
                                 <div className={style.teacher_left_side}>
                                     <h2 className={style.teacher_name}>

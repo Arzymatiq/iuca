@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import style from "./admission.module.css";
-import admission_img from "../img/admission_second_img.jpg";
+import admission_img from "../img/IMG_8129.JPG";
 import { Col } from "react-bootstrap";
 import kyrgiz_test from "../ui/pdf/tests/kyrgyz_lang_test.pdf";
 import en_eo_test from "../ui/pdf/tests/eng_lang_test.pdf";
