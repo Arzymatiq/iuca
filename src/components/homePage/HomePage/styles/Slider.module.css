@@ -34,8 +34,18 @@
     transition: opacity 0.3s ease;
     font-size: 1.2em;
     opacity: 0; /* Начальное состояние блока с текстом (скрыт) */
+    display: flex;
 }
-
+.text p {
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+}
 .block:hover .image {
     filter: brightness(50%);
 }
