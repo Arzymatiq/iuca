@@ -33,7 +33,7 @@ const IT = () => {
                 <Col>
                     <div className={style.result}>
                         <div className={style.result_center}>
-                            <h2>{t("admission.payment")}</h2>
+                            <h2>{t("admission.docs")}</h2>
                             <ul className={style.result_list}>
                                 <li className={style.result_item}>
                                     {t("admission.payment_1")}
@@ -58,6 +58,12 @@ const IT = () => {
                                 </li>
                                 <li className={style.result_item}>
                                     {t("admission.payment_8")}
+                                </li>
+                                <li className={style.result_item}>
+                                    {t("admission.payment_9")}
+                                </li>
+                                <li className={style.result_item}>
+                                    {t("admission.payment_10")}
                                 </li>
                             </ul>
                         </div>
@@ -90,6 +96,9 @@ const IT = () => {
 
                 <div className={style.teacher_block}>
                     <div className={style.teacher_block_center}>
+                        <div className={style.result_center}>
+                            <h2>{t("admission.payment")}</h2>
+                        </div>
                         <ul className={style.teacher_list}>
                             <li className={style.teacher_item}>
                                 <div className={style.teacher_left_side}>

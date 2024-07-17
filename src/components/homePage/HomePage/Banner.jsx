@@ -3,7 +3,7 @@ import style from "./styles/banner.module.css";
 import natural from "./images/natural.jpg";
 import otter from "./images/otter.jpg";
 import { useTranslation } from "react-i18next";
-import homepage_mission_img from "../../img/homePage_mission_img.jpg";
+import homepage_mission_img from "../../img/CAM12629.jpg";
 import homePage_goals_img from "../../img/homePage_goals_img.JPG";
 
 const BannerComp = () => {

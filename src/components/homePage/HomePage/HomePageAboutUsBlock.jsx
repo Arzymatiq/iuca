@@ -4,7 +4,7 @@ import styles from "./styles/homepageAboutUsBlock.module.css";
 import aboutUSImg from "./images/aboutus__img.svg";
 import iuca_icon from "../../img/1eb05a_0fe9a128f78b4af98d57da389f200710~mv2.webp";
 import { useTranslation } from "react-i18next";
-import homepage_aboutus_img from "../../img/homePage_about_us.webp";
+import homepage_aboutus_img from "../../img/CAM22322.jpg";
 
 const HomePageAboutUsBlock = () => {
     const [t, i18n] = useTranslation("global");
@@ -16,13 +16,11 @@ const HomePageAboutUsBlock = () => {
         <div className={styles.homepage__aboutus__block}>
             <div className={styles.container}>
                 <div className={styles.img__wrapper}>
-                    <div>
-                        <img
-                            src={homepage_aboutus_img}
-                            alt="error"
-                            className={styles.aboutus__left__block}
-                        />
-                    </div>
+                    <img
+                        src={homepage_aboutus_img}
+                        alt="error"
+                        className={styles.aboutus__left__block}
+                    />
                 </div>
                 <div className={styles.aboutus__right__block}>
                     <h2 className={styles.aboutus__right__block__header}>

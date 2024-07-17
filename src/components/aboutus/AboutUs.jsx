@@ -26,20 +26,22 @@ const AboutUs = () => {
                         />
                     </div>
                 </div>
-                <div className={style.mission_block}>
-                    <div className={style.mission_about_us_left_side}>
+
+                <div className={style.aboutus_main_center}>
+                    <div className={style.about_us_right_side}>
                         <img
                             src={aboutus_2}
                             alt=""
                             className={style.about_us_image}
                         />
                     </div>
-                    <div className={style.mission_about_us_right_side}>
+                    <div className={style.about_us_left_side}>
                         <p className={style.about_us_description}>
                             {t("Aboutus.main_info_2")}
                         </p>
                     </div>
                 </div>
+
                 <div className={style.advantage}>
                     <div className={style.advantage_center}>
                         <div className={style.advantage_left_side}>
@@ -83,6 +85,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                 </div>
+
                 <div className={style.banner}>
                     <div className={style.container}>
                         <div className={style.container_center}>

@@ -65,3 +65,15 @@ p {
         box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
     }
 }
+@media (max-width: 650px) {
+    .container_center {
+        width: 100%;
+    }
+    .card {
+        flex: 0;
+    }
+    .container_center {
+        display: flex;
+        flex-direction: column;
+    }
+}

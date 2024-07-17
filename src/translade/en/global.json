@@ -34,11 +34,11 @@
         "title": "About us",
         "title_1": "Humanitarian technical college ",
 
-        "about_us_description": "Humanitarian technical college (HTC) - it’s an educational place which aspire to provide middling high-quality education for students",
+        "about_us_description": "Humanitarian technical college  (HTC) - it’s an educational place which aspire to provide middling high-quality education for students.",
         "about_us_brifly_info_1_1": "Academic Freedom Policy",
-        "about_us_brifly_info_1_2": "The principles of academic freedom and integrity allow us to achieve a higher quality level of education",
+        "about_us_brifly_info_1_2": "The principles of academic freedom and integrity allow us to achieve a higher quality level of education.",
         "about_us_brifly_info_2_1": "Personality-centered approach to learning",
-        "about_us_brifly_info_2_2": "IUCA is the only university in the country where regular research begins on the cognitive and personal characteristics, ethical and intellectual development of each student"
+        "about_us_brifly_info_2_2": "IUCA HTC is the first colleges in the country where regular research begins on the cognitive and personal characteristics, ethical and intellectual development of each student."
     },
     "footer": {
         "Address": "Address",
@@ -113,7 +113,11 @@
         "teacher_11": "Turukbaeva R.N.",
         "teacher_11_prof": "Lecturer",
         "teacher_11_gmail": "turukbaeva_r@iuca.kg",
-        "teacher_11_program": "Physics, Astronomy"
+        "teacher_11_program": "Physics, Astronomy",
+        "teacher_12": "Oleinikova L.V.",
+        "teacher_12_prof": "Lecturer",
+        "teacher_12_gmail": "Mathematics",
+        "teacher_12_program": "oleinikova_l@iuca.kg"
     },
     "PED": {
         "head_word": "Preschool Education",
@@ -268,8 +272,8 @@
         "teacher_5_gmail": "imanalieva_n@iuca.kg",
         "teacher_5_program": "Graduate of Issyk-Kul State University named after K. Tynystanov, Karakol, Master of Sociology (Taiwan)"
     },
-    "Jaw": {
-        "head_word": "Jaw",
+    "Law": {
+        "head_word": "Law",
         "about_it_program": "About the Program",
         "about_it_program_description": "The profession of a lawyer is currently one of the most in-demand and prestigious professions. Lawyers, along with medical professionals, are considered to be among the highest-paid people in the world, which always attracts special interest from young people who are choosing their future careers. Moreover, those who have mastered this profession have vast opportunities in choosing their place of work. With a lawyer's diploma from a college, you can work in many organizations, as they all require legal support for their activities.",
         "program_goals": "Program Goals",
@@ -298,36 +302,35 @@
         "teacher_2_gmail": "marat_agai@iuca.kg",
         "teacher_2_program": "History, Philosophy, International Law, History of State and Law of Foreign Countries",
 
-        "teacher_4": "Suleiman Sh.B.",
+        "teacher_3": "Suleiman Sh.B.",
+        "teacher_3_prof": "Teacher",
+        "teacher_3_gmail": "Suleyman_s@iuca.kg",
+        "teacher_3_program": "Information Law, English in Professional Activity, Rhetoric",
+
+        "teacher_4": "Isaev N.K.",
         "teacher_4_prof": "Teacher",
-        "teacher_4_gmail": "Suleyman_s@iuca.kg",
+        "teacher_4_gmail": "Isaev_n@iuca.kg",
+        "teacher_4_program": "Business Law, History of State and Law of the Kyrgyz Republic",
 
-        "teacher_4_program": "Information Law, English in Professional Activity, Rhetoric",
-        "teacher_5": "Isaev N.K.",
+        "teacher_5": "Ismailov K.T.",
         "teacher_5_prof": "Teacher",
-        "teacher_5_gmail": "Isaev_n@iuca.kg",
+        "teacher_5_gmail": "ismailova_k@iuca.kg",
+        "teacher_5_program": "Constitutional Law, Introduction to the Specialty, Customs Law",
 
-        "teacher_5_program": "Business Law, History of State and Law of the Kyrgyz Republic",
-        "teacher_6": "Ismailov K.T.",
+        "teacher_6": "Karagulova D.B.",
         "teacher_6_prof": "Teacher",
-        "teacher_6_gmail": "ismailova_k@iuca.kg",
+        "teacher_6_gmail": "karagulova_d@iuca.kg",
+        "teacher_6_program": "Kyrgyz Language, Kyrgyz Literature",
 
-        "teacher_6_program": "Constitutional Law, Introduction to the Specialty, Customs Law",
-        "teacher_7": "Karagulova D.B.",
+        "teacher_7": "Arzymatova E.B.",
         "teacher_7_prof": "Teacher",
-        "teacher_7_gmail": "karagulova_d@iuca.kg",
+        "teacher_7_gmail": "arzymatova_e@iuca.kg",
+        "teacher_7_program": "Civil Law, Family Law, Social Security Law",
 
-        "teacher_7_program": "Kyrgyz Language, Kyrgyz Literature",
-        "teacher_8": "Arzymatova E.B.",
+        "teacher_8": "Kadyralieva A.A.",
         "teacher_8_prof": "Teacher",
-        "teacher_8_gmail": "arzymatova_e@iuca.kg",
-
-        "teacher_8_program": "Civil Law, Family Law, Social Security Law",
-        "teacher_9": "Kadyralieva A.A.",
-        "teacher_9_prof": "Teacher",
-        "teacher_9_gmail": "kadyralieva_a@iuca.kg",
-
-        "teacher_9_program": "World History, History of Kyrgyzstan"
+        "teacher_8_gmail": "kadyralieva_a@iuca.kg",
+        "teacher_8_program": "World History, History of Kyrgyzstan"
     },
 
     "admission": {
@@ -343,26 +346,29 @@
         "payment_6": "Copies of certificates of special achievements (diplomas of victories in Olympiads, certificates of participation in exchange programs, etc.).",
 
         "payment_7": "Registration fee - 300 soms.",
-        "payment_8": "Medical certificate form №0/86U.",
+        "payment_8": "Medical certificate form №86U.",
+        "payment_9": "Copy of certificates of special achievements.",
+        "payment_10": "Registration certificate or military ID.",
+
         "training_unit": "Academic Department",
         "training_unit_1": "Structural subdivision, the center of all academic activities of the college, organizing the educational process, monitoring academic activities, responsible for the academic calendar and monitoring its implementation, compiling, collecting, and storing student documents, maintaining student records, including transcripts and document issuance upon graduation, preparing documents for registration for external testing, preparing and issuing all types of student certificates, scheduling, conducting and analyzing student surveys, compiling work schedules for staff.",
         "training_unit_2": "The Academic Department is responsible for information and materials on student registration, processing results of registration for courses taught at the college, managing the educational process by coordinating academic activities, collecting, processing documents, and providing college management with information about the student body. The department works directly with heads of departments, teachers, and students to address all academic issues: planning and organizing the educational process and monitoring it, as well as registering student achievements.",
         "training_unit_3": "The department works directly with heads of departments, teachers, and students to address all academic issues: planning and organizing the educational process and monitoring it, as well as registering student achievements.",
         "direction_1": "Preschool Education",
-        "direction_1_citizens": "Citizens of the Kyrgyz Republic: 47,000 soms",
+        "direction_1_citizens": "Citizens of the Kyrgyz Republic: 50,000 soms",
         "direction_1_foreigner": "Foreign Citizens: 55,000 soms",
         "direction_2": "Jurisprudence",
-        "direction_2_citizens": "Citizens of the Kyrgyz Republic: 55,000 soms",
-        "direction_2_foreigner": "Foreign Citizens: 60,000 soms",
+        "direction_2_citizens": "Citizens of the Kyrgyz Republic: 57,000 soms",
+        "direction_2_foreigner": "Foreign Citizens: 62,000 soms",
         "direction_3": "Tourism",
-        "direction_3_citizens": "Citizens of the Kyrgyz Republic: 55,000 soms",
-        "direction_3_foreigner": "Foreign Citizens: 60,000 soms",
+        "direction_3_citizens": "Citizens of the Kyrgyz Republic: 57,000 soms",
+        "direction_3_foreigner": "Foreign Citizens: 62,000 soms",
         "direction_4": "Translation Studies",
-        "direction_4_citizens": "Citizens of the Kyrgyz Republic: 57,000 soms",
-        "direction_4_foreigner": "Foreign Citizens: 65,000 soms",
+        "direction_4_citizens": "Citizens of the Kyrgyz Republic: 62,000 soms",
+        "direction_4_foreigner": "Foreign Citizens: 67,000 soms",
         "direction_5": "IT (Public Administration, Law, and Information Systems)",
-        "direction_5_citizens": "Citizens of the Kyrgyz Republic: 57,000 soms",
-        "direction_5_foreigner": "Foreign Citizens: 65,000 soms",
+        "direction_5_citizens": "Citizens of the Kyrgyz Republic: 62,000 soms",
+        "direction_5_foreigner": "Foreign Citizens: 67,000 soms",
         "mock_tests": "Mock Tests",
         "mock_tests_1": "Test in Kyrgyz Language",
         "mock_tests_2": "Test in English (Translation Studies)",

@@ -36,6 +36,7 @@
     background-color: white;
     border-radius: 15px;
     margin: 15px;
+    padding: 20px;
 }
 
 .left_side,
@@ -140,11 +141,6 @@
 .program_goals_item {
     height: 500px;
 }
-.mission_block {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
 
 .program_image {
     width: 70%;
@@ -220,9 +216,12 @@
 }
 
 .h2 {
+    width: 100%;
     margin-top: 10px; /* Внешний отступ сверху для заголовка */
     font-size: 16px; /* Размер шрифта */
     font-weight: bold; /* Полужирный шрифт */
+    display: flex;
+    justify-content: space-between;
 }
 p {
     font-size: 20px;

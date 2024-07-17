@@ -6,10 +6,29 @@ import it_img from "../../img/smaller_pink.jpg";
 import { BsArrowRight } from "react-icons/bs";
 import { Container, Row, Col } from "react-bootstrap";
 import Tour_img from "../../img/tour1.jpg";
-import Tour_img_2 from "../../img/Tis_img_1.jpeg";
+import Tour_img_2 from "../../img/kyrgyzstan-1200x800.jpg";
 
 const Tour = () => {
     const [t, i18n] = useTranslation("global");
+
+    const teacher_arr = [];
+
+    const createTeacherObject = (index) => {
+        return {
+            teacher_name: t(`Tour.teacher_${index}`),
+            teacher_prof: t(`Tour.teacher_${index}_prof`),
+            teacher_gmail: t(`Tour.teacher_${index}_gmail`),
+            teacher_program: t(`Tour.teacher_${index}_program`),
+        };
+    };
+
+    const startIndex = 1;
+    const endIndex = 5;
+
+    for (let i = startIndex; i <= endIndex; i++) {
+        const newTeacherObject = createTeacherObject(i);
+        teacher_arr.push(newTeacherObject);
+    }
 
     return (
         <>
@@ -121,96 +140,26 @@ const Tour = () => {
                 <div className={style.teacher_block}>
                     <div className={style.teacher_block_center}>
                         <ul className={style.teacher_list}>
-                            <li className={style.teacher_item}>
-                                <div className={style.teacher_left_side}>
-                                    <h2 className={style.teacher_name}>
-                                        {t("Tour.teacher_1")}
-                                    </h2>
-                                    <p className={style.teacher_prof}>
-                                        {t("Tour.teacher_1_prof")}
-                                    </p>
-                                    <p className={style.teacher_gmail}>
-                                        {t("Tour.teacher_1_gmail")}
-                                    </p>
-                                </div>
-                                <div className={style.teacher_right_side}>
-                                    <p className={style.teacher_program}>
-                                        {t("Tour.teacher_1_program")}
-                                    </p>
-                                </div>
-                            </li>
-                            <li className={style.teacher_item}>
-                                <div className={style.teacher_left_side}>
-                                    <h2 className={style.teacher_name}>
-                                        {t("Tour.teacher_2")}
-                                    </h2>
-                                    <p className={style.teacher_prof}>
-                                        {t("Tour.teacher_2_prof")}
-                                    </p>
-                                    <p className={style.teacher_gmail}>
-                                        {t("Tour.teacher_2_gmail")}
-                                    </p>
-                                </div>
-                                <div className={style.teacher_right_side}>
-                                    <p className={style.teacher_program}>
-                                        {t("Tour.teacher_2_program")}
-                                    </p>
-                                </div>
-                            </li>
-                            <li className={style.teacher_item}>
-                                <div className={style.teacher_left_side}>
-                                    <h2 className={style.teacher_name}>
-                                        {t("Tour.teacher_3")}
-                                    </h2>
-                                    <p className={style.teacher_prof}>
-                                        {t("Tour.teacher_3_prof")}
-                                    </p>
-                                    <p className={style.teacher_gmail}>
-                                        {t("Tour.teacher_3_gmail")}
-                                    </p>
-                                </div>
-                                <div className={style.teacher_right_side}>
-                                    <p className={style.teacher_program}>
-                                        {t("Tour.teacher_3_program")}
-                                    </p>
-                                </div>
-                            </li>
-                            <li className={style.teacher_item}>
-                                <div className={style.teacher_left_side}>
-                                    <h2 className={style.teacher_name}>
-                                        {t("Tour.teacher_4")}
-                                    </h2>
-                                    <p className={style.teacher_prof}>
-                                        {t("Tour.teacher_4_prof")}
-                                    </p>
-                                    <p className={style.teacher_gmail}>
-                                        {t("Tour.teacher_4_gmail")}
-                                    </p>
-                                </div>
-                                <div className={style.teacher_right_side}>
-                                    <p className={style.teacher_program}>
-                                        {t("Tour.teacher_4_program")}
-                                    </p>
-                                </div>
-                            </li>
-                            <li className={style.teacher_item}>
-                                <div className={style.teacher_left_side}>
-                                    <h2 className={style.teacher_name}>
-                                        {t("Tour.teacher_5")}
-                                    </h2>
-                                    <p className={style.teacher_prof}>
-                                        {t("Tour.teacher_5_prof")}
-                                    </p>
-                                    <p className={style.teacher_gmail}>
-                                        {t("Tour.teacher_5_gmail")}
-                                    </p>
-                                </div>
-                                <div className={style.teacher_right_side}>
-                                    <p className={style.teacher_program}>
-                                        {t("Tour.teacher_5_program")}
-                                    </p>
-                                </div>
-                            </li>
+                            {teacher_arr.map((ar, index) => (
+                                <li key={index} className={style.teacher_item}>
+                                    <div className={style.teacher_left_side}>
+                                        <h2 className={style.teacher_name}>
+                                            {ar.teacher_name}
+                                        </h2>
+                                        <p className={style.teacher_prof}>
+                                            {ar.teacher_prof}
+                                        </p>
+                                        <p className={style.teacher_gmail}>
+                                            {ar.teacher_gmail}
+                                        </p>
+                                    </div>
+                                    <div className={style.teacher_right_side}>
+                                        <p className={style.teacher_program}>
+                                            {ar.teacher_program}
+                                        </p>
+                                    </div>
+                                </li>
+                            ))}
                         </ul>
                     </div>
                 </div>

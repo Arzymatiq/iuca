@@ -45,6 +45,7 @@
     background-color: white;
     border-radius: 15px;
     margin: 15px;
+    height: 600px;
 }
 .mission_block {
     display: flex;
@@ -53,6 +54,7 @@
     background-color: white;
     border-radius: 15px;
     margin: 15px;
+    height: 600px;
 }
 
 .left_side,
@@ -229,6 +231,14 @@ p {
         box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Тень карточки */
     }
 }
+@media (max-width: 600px) {
+    .container_center {
+        flex-direction: column;
+    }
+    .card {
+        margin-bottom: 15px;
+    }
+}
 .result {
     display: flex;
     flex-wrap: wrap;
@@ -266,6 +276,7 @@ p {
         width: 90%;
     }
 }
+
 .teacher_block {
     margin-top: 20px;
 }

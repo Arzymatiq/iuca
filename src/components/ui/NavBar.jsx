@@ -10,9 +10,9 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Container from "react-bootstrap/Container";
 import pdf from "./pdf/toStudents/timeTable/time-table-fall-2023g.pdf";
-import vacancies_pdf from "./pdf/vacancies/v-na-2023-2024god-1.docx.pdf";
+import vacancies_pdf from "./pdf/vacancies/vacancies.docx";
 
-function OffcanvasExample() {
+function NavBar() {
     const [t, i18n] = useTranslation("global");
     const navigate = useNavigate();
     const handleChangeLanguages = (lang) => {
@@ -36,12 +36,10 @@ function OffcanvasExample() {
         };
     }, [scrolled]);
 
-    // const openPDF = () => {
-    //     window.open(
-    //         "../pdf/toStudents/timeTable/time-table-fall-2023g.docx.pdf",
-    //         "_blank"
-    //     );
-    // };
+    const handleNavigate = (path) => {
+        window.scrollTo(0, 0);
+        navigate(path);
+    };
 
     return (
         <>
@@ -78,34 +76,47 @@ function OffcanvasExample() {
                             </Offcanvas.Header>
                             <Offcanvas.Body>
                                 <Nav className="justify-content-end flex-grow-1 pe-3 ">
-                                    <Nav.Link onClick={() => navigate("/")}>
+                                    <Nav.Link
+                                        onClick={() => handleNavigate("/")}>
                                         {t("navBar.navBar_item_1")}
                                     </Nav.Link>
                                     <Nav.Link
-                                        onClick={() => navigate("/admission")}>
+                                        onClick={() =>
+                                            handleNavigate("/admission")
+                                        }>
                                         {t("navBar.navBar_item_2")}
                                     </Nav.Link>
                                     <NavDropdown
                                         title={t("navBar.navBar_item_3")}
                                         id={`offcanvasNavbarDropdown-expand-${expand}`}>
                                         <NavDropdown.Item
-                                            onClick={() => navigate("/it")}>
+                                            onClick={() =>
+                                                handleNavigate("/it")
+                                            }>
                                             {t("navBar.navBar_item_3_1")}
                                         </NavDropdown.Item>
                                         <NavDropdown.Item
-                                            onClick={() => navigate("/ped")}>
+                                            onClick={() =>
+                                                handleNavigate("/ped")
+                                            }>
                                             {t("navBar.navBar_item_3_2")}
                                         </NavDropdown.Item>
                                         <NavDropdown.Item
-                                            onClick={() => navigate("/tis")}>
+                                            onClick={() =>
+                                                handleNavigate("/tis")
+                                            }>
                                             {t("navBar.navBar_item_3_3")}
                                         </NavDropdown.Item>
                                         <NavDropdown.Item
-                                            onClick={() => navigate("/tour")}>
+                                            onClick={() =>
+                                                handleNavigate("/tour")
+                                            }>
                                             {t("navBar.navBar_item_3_4")}
                                         </NavDropdown.Item>
                                         <NavDropdown.Item
-                                            onClick={() => navigate("/jaw")}>
+                                            onClick={() =>
+                                                handleNavigate("/Law")
+                                            }>
                                             {t("navBar.navBar_item_3_5")}
                                         </NavDropdown.Item>
                                     </NavDropdown>
@@ -144,7 +155,7 @@ function OffcanvasExample() {
                                         </NavDropdown.Item>
                                         <NavDropdown.Item
                                             onClick={() =>
-                                                navigate("/about_us")
+                                                handleNavigate("/about_us")
                                             }>
                                             {t("navBar.navBar_item_5_2")}
                                         </NavDropdown.Item>
@@ -183,4 +194,4 @@ function OffcanvasExample() {
     );
 }
 
-export default OffcanvasExample;
+export default NavBar;
