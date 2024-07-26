@@ -25,7 +25,7 @@ const IT = () => {
                 <div className={style.admission_brif}>
                     <div className={style.about_it_program_left_side}>
                         <p className={style.about_it_program}>
-                            {t("admission.head_word_1")}
+                            -{t("admission.head_word_1")}
                         </p>
                     </div>
                 </div>

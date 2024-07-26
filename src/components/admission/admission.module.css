@@ -22,10 +22,12 @@
 }
 
 .admission_brif {
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: #f9f9f900;
     border-radius: 15px;
     margin: 15px;
 }
@@ -46,12 +48,16 @@
     justify-content: space-around;
 }
 .about_it_program_left_side {
-    height: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
     display: flex;
     width: 50%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #ffffff00;
 }
 .about_it_program_right_side {
     display: flex;
@@ -60,7 +66,8 @@
 }
 .about_it_program {
     display: flex;
-    margin-left: 25px;
+    font-style: italic;
+    font-weight: 200;
 }
 .mission_program_left_side {
     display: flex;
@@ -98,12 +105,7 @@
 }
 
 .about_it_program_left_side {
-    height: 200px;
-    color: rgb(42, 55, 77);
-    background-color: #f9f9f9f9;
-    padding: 5px;
-    margin: 15px;
-    border-radius: 5px;
+    color: white;
     z-index: 1;
 }
 

@@ -1,10 +1,8 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Carousel } from "react-bootstrap";
 import style from "../programs.module.css";
-import it_img from "../../img/smaller_pink.jpg";
 import { BsArrowRight } from "react-icons/bs";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import Tour_img from "../../img/tour1.jpg";
 import Tour_img_2 from "../../img/kyrgyzstan-1200x800.jpg";
 

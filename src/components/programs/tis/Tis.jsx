@@ -1,10 +1,8 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Carousel } from "react-bootstrap";
 import style from "../programs.module.css";
-import it_img from "../../img/smaller_pink.jpg";
 import { BsArrowRight } from "react-icons/bs";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import Tis_img from "../../img/CAM21434.jpg";
 import Tis_img_2 from "../../img/Tis_img_1.jpeg";
 

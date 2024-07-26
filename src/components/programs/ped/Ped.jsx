@@ -1,10 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Carousel } from "react-bootstrap";
 import style from "../programs.module.css";
-import it_img from "../../img/smaller_pink.jpg";
-import { BsArrowRight } from "react-icons/bs";
-import { Container, Row, Col } from "react-bootstrap";
 import Ped_first_img from "../../img/Ped_first_img.jpg";
 import Ped_first_img_1 from "../../img/ped_first_img_1.jpg";
 

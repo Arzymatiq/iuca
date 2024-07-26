@@ -1,10 +1,8 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Carousel, Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import style from "../programs.module.css";
-import it_img from "../../img/smaller_pink.jpg";
 import it_first_img from "../../img/photo_5316951826781822805_y.jpg";
-import it_mission_img from "../../img/it_mission_img.webp";
 import programs_eo_img from "../../img/programs_eo_img_3.webp";
 import { BsArrowRight } from "react-icons/bs";
 
