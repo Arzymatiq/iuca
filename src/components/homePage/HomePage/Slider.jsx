@@ -14,9 +14,14 @@ const Block = () => {
 
     const navigate = useNavigate("");
 
+    const handleNavigate = (path) => {
+        window.scrollTo(0, 0);
+        navigate(path);
+    };
+
     return (
         <div className={styles.blocks}>
-            <div className={styles.block} onClick={() => navigate("/it")}>
+            <div className={styles.block} onClick={() => handleNavigate("/it")}>
                 <img
                     src={homePage_it_icon}
                     alt="Juice"
@@ -26,7 +31,9 @@ const Block = () => {
                     <p>{t("navBar.navBar_item_3_1")}</p>
                 </div>
             </div>
-            <div className={styles.block} onClick={() => navigate("/ped")}>
+            <div
+                className={styles.block}
+                onClick={() => handleNavigate("/ped")}>
                 <img
                     src={homePage_ped_icon}
                     alt="Food"
@@ -36,7 +43,9 @@ const Block = () => {
                     <p>{t("navBar.navBar_item_3_2")}</p>
                 </div>
             </div>
-            <div className={styles.block} onClick={() => navigate("/tour")}>
+            <div
+                className={styles.block}
+                onClick={() => handleNavigate("/tis")}>
                 <img
                     src={homePage_tis_icon}
                     alt="Cookies"
@@ -46,7 +55,9 @@ const Block = () => {
                     <p>{t("navBar.navBar_item_3_3")}</p>
                 </div>
             </div>
-            <div className={styles.block} onClick={() => navigate("/jaw")}>
+            <div
+                className={styles.block}
+                onClick={() => handleNavigate("/tour")}>
                 <img
                     src={homePage_tour_icon}
                     alt="Cookies"
@@ -56,7 +67,9 @@ const Block = () => {
                     <p>{t("navBar.navBar_item_3_4")}</p>
                 </div>
             </div>
-            <div className={styles.block} onClick={() => navigate("/tis")}>
+            <div
+                className={styles.block}
+                onClick={() => handleNavigate("/law")}>
                 <img
                     src={homePage_law_icon}
                     alt="Cookies"
